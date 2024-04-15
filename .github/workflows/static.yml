@@ -43,7 +43,7 @@ jobs:
         uses: actions/deploy-pages@v4
       - uses: anishathalye/proof-html@v2
         with:
-          directory: ./_site
+          directory: /
           enforce_https: false
           tokens: |
             {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
